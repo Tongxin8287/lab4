@@ -1,0 +1,4 @@
+{% extends "Error_basic.html" %}
+{% block content %}
+No such author!
+{% endblock %}

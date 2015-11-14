@@ -1,0 +1,7 @@
+ISBN = '00000'
+Title = 'tttttttt'
+Author_name = 'tttttttt'
+Publisher = 'tttttttt'
+PublishDate ='1994-09-25'
+Price = '11'
+isbn_up = '234334343'

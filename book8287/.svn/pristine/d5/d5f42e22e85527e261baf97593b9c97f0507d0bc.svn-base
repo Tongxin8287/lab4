@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+div#container{width:500px}
+div#header {background-color:#99bbbb;}
+div#menu {background-color:#ffff99;height:200px;width:150px;float:left;}
+div#content {background-color:#EEEEEE;height:200px;width:350px;float:left;}
+div#footer {background-color:#99bbbb;clear:both;text-align:center;}
+h1 {margin-bottom:0;}
+h2 {margin-bottom:0;font-size:18px;}
+ul {margin:0;}
+li {list-style:none;}
+</style>
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="header">
+<h1>Book Site</h1>
+</div>
+
+<div id="menu">
+<h2>Menu</h2>
+<ul>
+<li><a href="http://book8287.sinaapp.com/search/">Search</a></li>
+<li><a href="http://book8287.sinaapp.com/add/">Add</a></li>
+</ul>
+</div>
+
+<div id="content">
+
+<form name="input" action="result/" method="get">
+In put the ISBN of the book you want to delete: 
+<input type="text" name="ISBN" />
+<input type="submit" value="Search" />
+</form>
+</div>
+
+<div id="footer">Copyright W3School.com.cn</div>
+
+</div>
+
+</body>
+</html>
