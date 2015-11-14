@@ -6,13 +6,7 @@ from books.models import Author,Book
 from django.http import HttpResponse
 import MySQLdb
 import glob
-# global ISBN
-# global Title
-# global Author_name
-# global Publisher
-# global PublishDate
-# global Price
-# global isbn_up
+
 def first_page(request):
 	return render_to_response('First_page.html')
 def search_t(request):
@@ -31,12 +25,7 @@ def search_a(request):
 def add_book_t(request):
 	return render_to_response('add_book.html')
 def add_book_a(request):
-	# global ISBN
-	# global Title
-	# global Author_name
-	# global Publisher
-	# global PublishDate
-	# global Price
+	
 	glob.ISBN = request.GET['ISBN']
 	glob.Title = request.GET['Title']
 	glob.Author_name = request.GET['Author_name']
@@ -59,11 +48,7 @@ def add_book_a(request):
 			else:
 				return render_to_response('add_author.html')
 def add_author_a(request):
-	# global ISBN
-	# global Title
-	# global Publisher
-	# global PublishDate
-	# global Price
+	
 	AuthorID = request.GET['AuthorID']
 	Name = glob.Author_name
 	Age = request.GET['Age']
